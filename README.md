@@ -18,10 +18,17 @@ Used Technologies
 Features
 
 Skin Disease Detection:
+
 The Skin Disease Diagnosis platform utilizes advanced AI algorithms to analyze skin images and accurately identify various conditions, providing reliable diagnostic results.
+
 Treatment Insights:
+
 Based on the detected condition, Skin Disease Diagnosis offers valuable information to assist healthcare professionals in making informed treatment decisions.
+
 User-Friendly Interface:
+
 The platform features an intuitive and easy-to-navigate design, ensuring accessibility for both medical professionals and patients.
+
 Data Privacy and Security:
+
 Skin Disease Diagnosis prioritizes data privacy, ensuring patient information is securely handled in compliance with industry standards for confidentiality.
