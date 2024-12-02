@@ -149,12 +149,10 @@ from tensorflow.keras.layers import Dense, Flatten, Dropout
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import joblib
 
-# Data generators for augmentation
 train_datagen = ImageDataGenerator(rescale=1./255, rotation_range=20, width_shift_range=0.2, 
                                    height_shift_range=0.2, horizontal_flip=True)
 test_datagen = ImageDataGenerator(rescale=1./255)
 
-# Load data
 train_generator = train_datagen.flow_from_directory(
     '/Users/ktanvee/Downloads/skin-disease-datasaet/train_set',
     target_size=(128, 128),
@@ -168,7 +166,6 @@ test_generator = test_datagen.flow_from_directory(
     class_mode='categorical'
 )
 
-# Load pre-trained model
 base_model = MobileNetV2(weights='imagenet', include_top=False, input_shape=(128, 128, 3))
 x = base_model.output
 x = Flatten()(x)
