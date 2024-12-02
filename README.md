@@ -12,7 +12,7 @@ We developed our skin disease diagnosis model using TensorFlow and implemented t
 
 Used Technologies
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,vscode,python,tensorflow,sqlite,django)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,vscode,python,tensorflow,sqlite,django)](https://skillicons.dev)
 
 
 Features
